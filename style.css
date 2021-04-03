@@ -1,0 +1,383 @@
+nav,
+header,
+footer {
+    display: block;
+}
+
+body {
+    line-height: 1;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.row {
+    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.row::after {
+    display: table;
+    clear: both;
+    content: "";
+}
+
+.col1 {width: 8.33%;}
+.col2 {width: 16.66%;}
+.col3 {width: 25%;}
+.col4 {width: 33.33%;}
+.col5 {width: 41.66%;}
+.col6 {width: 50%;}
+.col7 {width: 58.33%;}
+.col8 {width: 66.66%;}
+.col9 {width: 75%;}
+.col10 {width: 83.33%;}
+.col11 {width: 91.66%;}
+.col12 {width: 100%;}
+
+* {
+    box-sizing: border-box;
+}
+
+
+nav {
+    width: 100%;
+    margin: 0;
+}
+
+nav ul {
+    background-color: rgb(238, 192, 192);
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+ul.topnav li {
+    list-style: none;
+    float: left;
+}
+
+ul.topnav li.topnav-right {
+    list-style: none;
+    float: right;
+}
+
+ul.topnav li a {
+    display: block;
+    text-decoration: none;
+    min-height: 16px;
+    text-align: center;
+    padding: 14px;
+    text-transform: uppercase;
+    color: rgb(20, 19, 19);
+}
+
+ul.topnav li#track a {
+    color: green;
+}
+
+ul.topnav li a:hover {
+    background-color: darkseagreen;
+    color: #fff;
+}
+
+ul.topnav li.dropdownicon {
+    display: none;
+}
+
+
+
+/* #######  hero section  ####### */
+
+
+div.bacpic {
+    display: block;
+    margin: 0;
+    background-image: url("photos/PSX_20210208_200128.jpg");
+    background-color: #cccccc;
+   min-height: 450px;
+   max-height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    padding: 5px;
+}
+
+
+h1.hero-text {
+    font-size: 30px;
+    text-align: right;
+}
+
+p.herop {
+    font-size: 20px;
+    text-align: right;
+}
+
+input[type="search"] {
+    font-size: 14px;
+    width: 100%;
+    min-width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    margin-right: 0%;
+    padding-right: 0%;
+}
+
+button{
+font-size: 13px;
+font-weight: 500px;
+background-color: rgb(204, 120, 23);
+padding: 15px 15px;
+text-align: center;
+margin-left: 0px;
+border-radius: 3px;
+margin-left: 0%;
+}
+
+
+div.leftsicol {
+    margin: 10px 0px 10px 70px;
+    padding: 10px 0px 10px 70px;
+}
+
+div.butty {
+    display: block;
+    margin-left: 0px;
+}
+
+button.but:hover {
+    background-color: chartreuse;
+    color: #fff;
+}
+
+
+
+/* ######### section three ##### */
+
+div.box {
+   height: 500px;
+    width: 100%;
+    overflow: scroll;
+    text-align: left;
+    margin: 5px;
+    padding: 0px 10px;
+}
+
+
+
+img.card-img-top {
+    width: 100%;
+    height: 250px;
+}
+
+h1.why {
+    font-size: 20px;
+    text-align: left;
+    color: green;
+}
+
+p.whyp {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20.5px;
+    word-spacing: 2px;
+
+}
+
+div.toptext {
+    margin-top: 20px;
+}
+
+/* ###### section 4  ############ */
+
+header {
+    margin-bottom: 30px;
+}
+
+h1.our {
+    text-align: center;
+    color: darkblue;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+p.our-p {
+    text-align: center;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 20px;
+    line-height: 1.5;
+}
+
+
+/* ###### section 5  ##### */
+
+h1.sea {
+font-size: 22px;
+text-align: center;
+color: rgb(7, 160, 160);
+}
+
+p.sea-p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20.5px;
+    word-spacing: 2px;
+    text-align: center;
+
+}
+
+div.boxi {
+    display: block;
+    height: 150px;
+     width: 100%;
+     overflow: hidden;
+     text-align: left;
+     margin: 5% auto;
+     padding: 0px 10px;
+ }
+
+
+ /* ######## section 6  ######## */
+ img.car {
+    min-height: 450px;
+    max-height: 500px;
+ }
+
+
+ /* ##### footer  ##### */
+
+ h1.fut1,
+ h1.fut4b {
+     font-size: 20px;
+     font-weight: bold;
+     text-align: left;
+     margin: 25px;
+     color: yellowgreen;
+ }
+
+ footer {
+     background-color: rgb(160, 21, 21);
+     padding: 10px;
+     line-height: 2;
+     color: white;
+ }
+
+ ul.futta li a {
+    
+     color: wheat;
+ }
+
+div.boxy {
+   height: auto;
+    width: 100%;
+    overflow: hidden;
+    text-align: left;
+    margin: 5px;
+    padding: 0px 10px;
+}
+
+
+
+/* ############   mobile */
+
+@media screen and (max-width: 680px) {
+    ul.topnav li:not(:nth-child(1)) {
+        display: none;
+    }
+    
+    ul.topnav li.dropdownicon {
+        display: block;
+        float: right;
+    }
+    
+    ul.topnav.responsive li.dropdownicon {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    
+    ul.topnav.responsive {
+        position: relative;
+    }
+    
+    ul.topnav.responsive li {
+        display: inline;
+        float: none;
+    }
+    
+    ul.topnav.responsive li a {
+        display: block;
+        text-align: left;
+    }
+
+    .col4,
+    .col8 {
+        width: 100%;
+        margin: 0px;
+    }
+
+    div.leftsicol {
+        display: block;
+        margin: 5px;
+        padding: 0px;
+    
+    }
+    
+    div.butty {
+        display: block;
+        margin: 5px;
+        padding: 0px;
+    }
+
+    /* ###### section 4  ###### */
+
+    h1.our {
+        font-size: 30px;
+    }
+    
+    p.our-p {
+        text-align: center;
+        font-weight: 700;
+        font-size: 16px;
+    }
+
+      /* ######## section 6  ######## */
+ img.car {
+    height: 400px;
+}
+
+/* footer */
+
+.col3{
+    width: 100%;
+    margin: 0;
+}
+
+h1.fut1,
+ h1.fut4b {
+     text-align: left;
+ }
+
+ footer.p {
+     text-align: center;
+ }
+
+
+
+}    
